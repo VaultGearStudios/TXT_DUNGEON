@@ -1,0 +1,191 @@
+import java.util.Scanner;
+import java.util.Random;
+
+class Intro {
+  
+  public static void main(String IntroTxt[]) {
+    System.out.printLn("...Dream_Gear Studios presents...");
+    System.out.printLn(" ");
+    System.out.printLn("_____ _ _ _____ ____ _ _ _ _ ______ _____ _ _ ");
+    System.out.printLn(" | | |_|_|_| | | | _ \ | | | | | \ | | | | | \ | |");
+    System.out.printLn(" | | | | | | | | | | | | | | | \| | | __ |___ | \| |");
+    System.out.printLn(" | | _|_|_ | | | |_| | | |_| | | _/\_ | | | | | _/\_ |")
+    System.out.printLn(" |_| |_| |_| |_| |____/ |____| |/ \| |_____| |_____||/ \|")
+    System.out.printLn("...TXT_DUNGEON..."); //Add Bigger title using slashes and verticles [up there]
+  }
+}
+
+class Legal {
+    
+	public static void main(String LegalTxt[]){
+		System.out.printLn("This game is a work of fiction.");
+		System.out.printLn("Refrences to real people, events, establishments, organizations, or localrs are intended only to provide a sense of authenticity and are used fictitiously.");
+		System.out.printLn("All other characters, and all incidents and dialouge, are drawn from the creator's imagination and are not to be constructed as real.");
+		System.out.printLn("Dream_Gear Studios [and Dream_Gear] and TXT DUNGEON Copyright ©️ by Dylan Lehman.");
+		System.out.printLn("All rights reserved. Made in the USA.");
+		
+		double GmVerNum;
+		
+		GmVerNum = 0.01
+		
+		System.out.printLn(" "); //Seperating Legal from Version Number
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.print("You are running version  ");
+		System.out.print(GmVerNum);
+		System.out.printLn("  of TXT DUNGEON!!!");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+	}
+}
+
+class MainMenu {
+	
+	public static void main(String MainMenuTxt[]) {
+		System.out.printLn("_____ _ _ _____ ____ _ _ _ _ ______ _____ _ _ ");
+    		System.out.printLn(" | | |_|_|_| | | | _ \ | | | | | \ | | | | | \ | |");
+    		System.out.printLn(" | | | | | | | | | | | | | | | \| | | __ |___ | \| |");
+    		System.out.printLn(" | | _|_|_ | | | |_| | | |_| | | _/\_ | | | | | _/\_ |")
+    		System.out.printLn(" |_| |_| |_| |_| |____/ |____| |/ \| |_____| |_____||/ \|")
+		System.out.printLn("...TXT_DUNGEON..."); //Add that Bigger title again I am thinking 5 lines tall by 5 lines wide for each letter...
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn("_       _  ____  _     _   _  _");
+		System.out.printLn("|  \    /  |  |          |  \  |  |  | |  | |");
+		System.out.printLn("|    \/    |  |__      |    \|  |  | |  | |");
+		System.out.printLn("|          |  |          | _/\_ |  | |_| |");
+		System.out.printLn("|          |  |____  |/      \|  |___|");
+		System.out.printLn("...Menu..."); //Try to do same thing but bigger... [Up there]
+		System.out.printLn(" ");
+		System.out.printLn("   Play     Credits     Quit   ");
+		System.out.printLn(" ");
+		System.out.printLn("Type your selection");
+		System.out.printLn(" ");
+		Scanner keybored = new Scanner(System.in);
+		
+		MainMenuAnswer = keybored.nextDouble()
+		if (MainMenuAnswer == 'Play' || MainMenuAnswer == 'play' || MainMenuAnswer == 'p' || MainMenuAnswer == 'P') {
+			System.out.printLn(" ");
+			System.out.printLn("....Loading....");
+			System.out.printLn(".....Loading...");
+			System.out.printLn("......Loading..");
+			System.out.printLn(".......Loading.");
+			System.out.printLn("........Loading");
+			System.out.printLn("g........Loadin");
+			System.out.printLn("ng........Loadi");
+			System.out.printLn("ing........Load");
+			System.out.printLn("ding........Loa");
+			System.out.printLn("ading........Lo");
+			System.out.printLn("oading........L");
+			System.out.printLn("Loading........");
+			System.out.printLn(".Loading.......");
+			System.out.printLn("..Loading......");
+			System.out.printLn("...Loading.....");
+			System.out.printLn("....Loading....");
+		}
+		
+		if (MainMenuAnswer == 'Credits' || MainMenuAnswer == 'credits' || MainMenuAnswer == 'C' || MainMenuAnswer == 'c') {
+			System.out.printLn("...Credits...");
+			System.out.printLn(" ");
+			System.out.printLn("All programing, animation, storywork, and everything in this game were created by Dream_Gear_Studios.");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn("Dedicated to beginer programmers.");
+			System.out.printLn("You are not alone!!!");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			
+			MainMenuAnswer2 = keybored.nextDouble()
+			System.out.printLn("_____ _ _ _____ ____ _ _ _ _ ______ _____ _ _ ");
+    			System.out.printLn(" | | |_|_|_| | | | _ \ | | | | | \ | | | | | \ | |");
+    			System.out.printLn(" | | | | | | | | | | | | | | | \| | | __ |___ | \| |");
+    			System.out.printLn(" | | _|_|_ | | | |_| | | |_| | | _/\_ | | | | | _/\_ |")
+    			System.out.printLn(" |_| |_| |_| |_| |____/ |____| |/ \| |_____| |_____||/ \|") // Like this
+			System.out.printLn("...TXT_DUNGEON..."); //Add that Bigger title again I am thinking 5 lines tall by 5 lines wide for each letter...
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn("_       _  ____  _     _   _  _");
+			System.out.printLn("|  \    /  |  |          |  \  |  |  | |  | |");
+			System.out.printLn("|    \/    |  |__      |    \|  |  | |  | |");
+			System.out.printLn("|          |  |          | _/\_ |  | |_| |");
+			System.out.printLn("|          |  |____  |/      \|  |___|");
+			System.out.printLn("Menu"); //Try to do same thing but bigger...[Up there]
+			System.out.printLn(" ");
+			System.out.printLn("   Play     Quit   ");
+			System.out.printLn(" ");
+			System.out.printLn("Type your selection");
+			System.out.printLn(" ");
+		
+			if (MainMenuAnswer2 == 'Play' || MainMenuAnswer2 == 'play' || MainMenuAnswer2 == 'p' || MainMenuAnswer2 == 'P') {
+				System.out.printLn(" ");
+				System.out.printLn("....Loading....");
+				System.out.printLn(".....Loading...");
+				System.out.printLn("......Loading..");
+				System.out.printLn(".......Loading.");
+				System.out.printLn("........Loading");
+				System.out.printLn("g........Loadin");
+				System.out.printLn("ng........Loadi");
+				System.out.printLn("ing........Load");
+				System.out.printLn("ding........Loa");
+				System.out.printLn("ading........Lo");
+				System.out.printLn("oading........L");
+				System.out.printLn("Loading........");
+				System.out.printLn(".Loading.......");
+				System.	out.printLn("..Loading......");
+				System.out.printLn("...Loading.....");
+				System.out.printLn("....Loading....");
+			}
+			if (MainMenuAnswer2 == 'Quit' || MainMenuAnswer2 == 'quit' || MainMenuAnswer2 == 'Q' || MainMenuAnswer2 == 'q') {
+				System.out.printLn(" ");
+				System.out.printLn(".");
+				System.out.printLn("..");
+				System.out.printLn("...");
+				System.out.printLn("....");
+				System.out.printLn(".....");
+				System.out.printLn("Why are you still here? I thought you wanted to quit?");
+				System.out.printLn("......");
+				System.out.printLn(".......");
+				System.out.printLn("........");
+				System.out.printLn(".........");
+				System.out.printLn("..........");
+				System.out.printLn("Did you think I would do it for you?!");
+				System.out.printLn(" ");
+			}
+		}
+		if (MainMenuAnswer == 'Quit' || MainMenuAnswer == 'quit' || MainMenuAnswer == 'Q' || MainMenuAnswer == 'q') {
+			System.out.printLn(" ");
+			System.out.printLn(".");
+			System.out.printLn("..");
+			System.out.printLn("...");
+			System.out.printLn("....");
+			System.out.printLn(".....");
+			System.out.printLn("Why are you still here? I thought you wanted to quit?");
+			System.out.printLn("......");
+			System.out.printLn(".......");
+			System.out.printLn("........");
+			System.out.printLn(".........");
+			System.out.printLn("..........");
+			System.out.printLn("Did you think I would do it for you?!");
+			System.out.printLn(" ");
+		}
+		
+		Random my Random = new Random();
+		int randomNumber = my Random.nextInt(#)+1;
+		
+		double NotAAnswer;
+		
+		NotAAnswer = randomNumber
+		
+		if (MainMenuAnswer != 'Play' || MainMenuAnswer != 'play' || MainMenuAnswer != 'p' || MainMenuAnswer != 'P' || MainMenuAnswer != 'Credits' || MainMenuAnswer != 'credits' || MainMenuAnswer != 'C' || MainMenuAnswer != 'c' || MainMenuAnswer == 'Quit' || MainMenuAnswer == 'quit' || MainMenuAnswer == 'Q' || MainMenuAnswer == 'q') {
+		
