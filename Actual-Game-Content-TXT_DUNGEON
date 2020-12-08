@@ -6,7 +6,7 @@ import java.io.PrintSream;
 
 class Intro {
   
-  public static void main(String IntroTxt[]) {
+  public static void main(String IntroTxt[]) throws FileNorDound Exception {
     System.out.printLn("...Dream_Gear Studios presents...");
     System.out.printLn(" ");
     System.out.printLn("_____ _ _ _____ ____ _ _ _ _ ______ _____ _ _ ");
@@ -14,7 +14,7 @@ class Intro {
     System.out.printLn(" | | | | | | | | | | | | | | | \| | | __ |___ | \| |");
     System.out.printLn(" | | _|_|_ | | | |_| | | |_| | | _/\_ | | | | | _/\_ |")
     System.out.printLn(" |_| |_| |_| |_| |____/ |____| |/ \| |_____| |_____||/ \|")
-    System.out.printLn("...TXT_DUNGEON..."); //Add Bigger title using slashes and verticles [up there]
+    System.out.printLn("...TXT_DUNGEON..."); //Bigger title using slashes and verticles is up there
   }
 }
 
@@ -28,8 +28,10 @@ class Legal {
 		System.out.printLn("All rights reserved. Made in the USA.");
 		
 		double GmVerNum;
+		int EnterNum;
 		
-		GmVerNum = 0.01
+		GmVerNum = 0.02
+		EnterNum = diskScanner.next Int();
 		
 		System.out.printLn(" "); //Seperating Legal from Version Number
 		System.out.printLn(" ");
@@ -61,7 +63,7 @@ class MainMenu {
     		System.out.printLn(" | | | | | | | | | | | | | | | \| | | __ |___ | \| |");
     		System.out.printLn(" | | _|_|_ | | | |_| | | |_| | | _/\_ | | | | | _/\_ |")
     		System.out.printLn(" |_| |_| |_| |_| |____/ |____| |/ \| |_____| |_____||/ \|")
-		System.out.printLn("...TXT_DUNGEON..."); //Add that Bigger title again I am thinking 5 lines tall by 5 lines wide for each letter...
+		System.out.printLn("...TXT_DUNGEON..."); //Bigger title again
 		System.out.printLn(" ");
 		System.out.printLn(" ");
 		System.out.printLn("_       _  ____  _     _   _  _");
@@ -69,7 +71,7 @@ class MainMenu {
 		System.out.printLn("|    \/    |  |__      |    \|  |  | |  | |");
 		System.out.printLn("|          |  |          | _/\_ |  | |_| |");
 		System.out.printLn("|          |  |____  |/      \|  |___|");
-		System.out.printLn("...Menu..."); //Try to do same thing but bigger... [Up there]
+		System.out.printLn("...Menu..."); //Up there is the bigger 'Menu'
 		System.out.printLn(" ");
 		System.out.printLn("   Play     Credits     Quit   ");
 		System.out.printLn(" ");
@@ -96,9 +98,7 @@ class MainMenu {
 			System.out.printLn("..Loading......");
 			System.out.printLn("...Loading.....");
 			System.out.printLn("....Loading....");
-		}
-		
-		if (MainMenuAnswer == 'Credits' || MainMenuAnswer == 'credits' || MainMenuAnswer == 'C' || MainMenuAnswer == 'c') {
+		} else if (MainMenuAnswer == 'Credits' || MainMenuAnswer == 'credits' || MainMenuAnswer == 'C' || MainMenuAnswer == 'c') {
 			System.out.printLn("...Credits...");
 			System.out.printLn(" ");
 			System.out.printLn("All programing, animation, storywork, and everything in this game were created by Dream_Gear_Studios.");
@@ -148,8 +148,7 @@ class MainMenu {
 				System.	out.printLn("..Loading......");
 				System.out.printLn("...Loading.....");
 				System.out.printLn("....Loading....");
-			}
-			if (MainMenuAnswer2 == 'Quit' || MainMenuAnswer2 == 'quit' || MainMenuAnswer2 == 'Q' || MainMenuAnswer2 == 'q') {
+			} else if (MainMenuAnswer2 == 'Quit' || MainMenuAnswer2 == 'quit' || MainMenuAnswer2 == 'Q' || MainMenuAnswer2 == 'q') {
 				System.out.printLn(" ");
 				System.out.printLn(".");
 				System.out.printLn("..");
@@ -165,8 +164,7 @@ class MainMenu {
 				System.out.printLn("Did you think I would do it for you?!");
 				System.out.printLn(" ");
 			}
-		}
-		if (MainMenuAnswer == 'Quit' || MainMenuAnswer == 'quit' || MainMenuAnswer == 'Q' || MainMenuAnswer == 'q') {
+		} else if (MainMenuAnswer == 'Quit' || MainMenuAnswer == 'quit' || MainMenuAnswer == 'Q' || MainMenuAnswer == 'q') {
 			System.out.printLn(" ");
 			System.out.printLn(".");
 			System.out.printLn("..");
@@ -184,11 +182,16 @@ class MainMenu {
 		}
 		
 		Random my Random = new Random();
-		int randomNumber = my Random.nextInt(#)+1;
-		
-		double NotAAnswer;
-		
-		NotAAnswer = randomNumber
+		int NotAAnswer = my Random.nextInt(13)+1;
 		
 		if (MainMenuAnswer != 'Play' || MainMenuAnswer != 'play' || MainMenuAnswer != 'p' || MainMenuAnswer != 'P' || MainMenuAnswer != 'Credits' || MainMenuAnswer != 'credits' || MainMenuAnswer != 'C' || MainMenuAnswer != 'c' || MainMenuAnswer == 'Quit' || MainMenuAnswer == 'quit' || MainMenuAnswer == 'Q' || MainMenuAnswer == 'q') {
-		
+			
+			switch (NotAAnswer) {
+			case 1:
+				System.out.printLn("Huh?!!!");
+				break;
+			case 2:
+				System.out.printLn("...That can't be right...");
+				break;
+			case 3:
+				System.out.
