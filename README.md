@@ -48,3 +48,5 @@ A little text dungeon type game written in Java.
 # December 7, 2020
     2:30
     Fixed .gitgnore
+# Version 0.02
+# December 8, 2020
