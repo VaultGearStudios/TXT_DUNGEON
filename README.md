@@ -21,7 +21,6 @@ A little text dungeon type game written in Java.
 		//   |_|   |_|  |_|    |_|      |____/  |____| |/      \| |_____| |_____||/      \|
 		A little buggy But good... Nevermind
 		(L)
-# Version 0.01:
 # December 3, 2020
 	10:54
 		The game is still in the alpha stage and the actual game should still be almost unplayable...
@@ -44,7 +43,6 @@ A little text dungeon type game written in Java.
 		Like eclipse...
 		Last edition to the game by this date is finishing the menu
 		Next additions to the menu are going to be secrets if you insert certain phrases and random phrase or something...
-# Version 0.01:
 # December 7, 2020
     2:30
     Fixed .gitgnore
