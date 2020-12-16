@@ -194,4 +194,227 @@ class MainMenu {
 				System.out.printLn("...That can't be right...");
 				break;
 			case 3:
-				System.out.
+				System.out.printLn("I’m waiting!");
+				break;
+			case 4: 
+				System.out.printLn("Tell me when you make a selection,");
+				System.out.printLn("I am going to take a nap...");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn("...ZzzZzzZzzZzzZzz...");   
+				break;
+			case 5:
+				system.out.printLn("If you don’t play the game I will");
+				break;
+			case 6:
+				System.out.printLn("I’m not getting any older...Wait..."); 
+				break;
+			case 7:
+				System.out.printLn("Do you need a reminder of what is in the menu?");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn("P-l-a-y, C-r-e-d-i-t-s, and Q-u-i-t !"); 
+				break;
+			case 8:
+				System.out.printLn("I’m not getting any younger!"); 
+				break;
+			case 9:
+				System.out.printLn("|");
+				System.out.printLn("|");
+				System.out.printLn("|");
+				System.out.printLn("|");
+				System.out.printLn("|_____"); 
+				break;
+			case 10:
+				System.out.printLn("You done yet?!");
+				break;
+			case 11:
+				System.out.printLn("8.5.12.12.15 bottles of… Error: 11.5.25 -");
+				System.out.printLn(" AcCiDeNtLy ReVeAlEd.");
+				System.out.printLn("01001101 01100101 01101101");
+				System.out.printLn("01101111 01110010 01111001");
+				System.out.printLn("00100000 01010111 01101001");
+				System.out.printLn("01110000 01100101 00100000");
+				System.out.printLn("01101001 01101110 01101001");
+				System.out.printLn("01110100 01101001 01100001");
+				System.out.printLn("01101011 01100101 01111001");
+				System.out.printLn("00100000 00101101 00100000");
+				System.out.printLn("01001011 01110010 01110101");
+				System.out.printLn("01101100 00100000 00101101");
+				System.out.printLn("00100000 01100110 01110010");
+				System.out.printLn("01101111 01101101 00100000");
+				System.out.printLn("01110100 01101000 01100101");
+				System.out.printLn("00100000 01110000 01101100");
+				System.out.printLn("01100001 01111001 01100101");
+				System.out.printLn("01110010 00100111 01110011");
+				System.out.printLn("00100000 01101101 01101001");
+				System.out.printLn("01101110 01100100 00100000");
+				System.out.printLn("01110011 01101111 00100000");
+				System.out.printLn("01110100 01101000 01100101");
+				System.out.printLn("01111001 00100000 01100100");
+				System.out.printLn("01101111 00100000 01101110");
+				System.out.printLn("01101111 01110100 00100000");
+				System.out.printLn("01100110 01101001 01101110");
+				System.out.printLn("01100100 00100000 01101111");
+				System.out.printLn("01110101 01110100 00100000");
+				System.out.printLn("01110111 01101000 01100001");
+				System.out.printLn("01110100 00100000 01110100");
+				System.out.printLn("01101000 01101001 01110011");
+				System.out.printLn("00100000 01110100 01110010");
+				System.out.printLn("01110101 01101100 01111001");   
+				System.out.printLn("00100000 01101001 01110011");
+				System.out.printLn("00101110 00101110 00101110");
+				System.out.printLn("00100000 01001101 01100101");
+				System.out.printLn("01101101 01101111 01110010");
+				System.out.printLn("01111001 00100000 01110111");
+				System.out.printLn("01101001 01110000 01100101");
+				System.out.printLn("00100000 01100011 01101111");
+				System.out.printLn("01101101 01110000 01101100");
+				System.out.printLn("01100101 01110100 01100101");
+				System.out.printLn("00100000 00101101 00100000");
+				System.out.printLn("01010011 01101001 01100111");
+				System.out.printLn("01101110 01101001 01101110");
+				System.out.printLn("01100111 00100000 01101111");
+				System.out.printLn("01100110 01100110 00100000");
+				System.out.printLn("01101110 01101111 01110111");
+				System.out.printLn("00100000 00001010 00101101");
+				System.out.printLn("00100000 01000111 01101100");
+				System.out.printLn("01101001 01110100 01100011");
+				System.out.printLn(""01101000 00100000 00110001);
+				System.out.printLn("00110000 00110001");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn(" ");
+				System.out.printLn("Menu - Play, Credits, Quit"); 
+				break;
+			case 12:
+				System.out.printLn("...");
+				break;
+			case 13:
+				System.out.printLn("Case 13");
+				System.out.printLn("Scary!"); 
+				break;
+			default:
+				System.out.printLn("Error: VoiceBox missing - Smart alec comment not found.");
+				break;
+			}
+		}
+	}
+
+keyboard.close();
+
+}
+
+public class StartPlaying {
+
+	public static void main(string PlayinTXT[]) {  
+		System.out.printLn("Loaded! Thank you for waiting");
+		System.out.printLn(" ");
+		System.out.print("you are running ");
+		System.out.printLn(GMVerNum);
+		System.out.printLn(" ");
+		System.out.printLn("..So there is no saving function available yet");
+		System.out.printLn("Sorry for the inconvenience");
+		System.out.printLn("(for saving your progress keep the java player");
+		System.out.printLn("or game playing area open to keep your progress) ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn(" ");
+		System.out.printLn("What is your characters or your name?");
+
+		Scanner keyboard = new Scanner(System.in);
+		While (CharNameYesNo != 'Y' || CharNameYesNo != 'y' || CharNameYesNo != 'Yes' || CharNameYesNo != 'yes') {
+			CharName = keyboard.nextDouble()
+
+			System.out.print("Is ”);
+			System.out.print(CharName);
+			System.out.printLn(" your name?");
+
+			CharNameYesNo = keyboard.nextdouble()
+			if (CharNameYesNo == 'Y' || CharNameYesNo == 'y' || CharNameYesNo == 'Yes' || CharNameYesNo == 'yes') {
+				System.out.print("Hello ”);
+				System.out.print(CharName);
+				System.out.printLn("!");
+			} if else (CharNameYesNo == 'N' || CharNameYesNo == 'n' || CharNameYesNo == 'No' || CharNameYesNo == 'no') {
+				System.out.printLn("What is your characters or your name?");
+				CharName = keyboard.nextDouble()
+			}
+		}
+
+		System.out.printLn("Are you lucky?"); 
+
+		Reply.Na = keyboard.nextDouble()
+
+		System.out.printLn("I really hope so...");
+
+		TraitNum1 = my Random.nextInt(10)+1;
+		TraitNum2 = my Random.nextInt(10)+1;
+		TraitNum3 = my Random.nextInt(10)+1;
+		TraitNum4 = my Random.nextInt(10)+1;
+		TraitNum5 = my Random.nextInt(10)+1;
+
+		Double StartSkillPnts;
+
+		StartSkillPnts = TraitNum1 + TraitNum2 + TraitNum3 + TraitNum4 + TraitNum5 
+
+		if (StartSkillPnts > 25) {
+
+			System.out.printLn("Wow you really are lucky!");
+
+		} else {
+
+			System.out.printLn("Well that sucks for you!");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn(" ");
+			System.out.printLn("???: ...Hey mortal you want to do deal?");
+			System.out.printLn("???: don’t worry about what it will cost you.");
+			System.out.printLn("???: Shake my hand and we will have a deal for ");
+			System.out.println("???: more skill points to make you stronger!");
+			System.out.printLn("???: Come on you can trust me I am just your nice, ");
+			System.out.printLn("???: self-is..I mean selfless nextdoor void demon!");
+			System.out.print("Void Demon: Shake my hand and we can do the deal ");     
+			System.out.print(CharName);
+			System.out.printLn("!"); 
+			System.out.printLn(" "); 
+			System.out.printLn("Decisions: Shake or Don’t Shake.");
+			BeginingDevilDeal = keyboard.nextDouble()
+
+			if (BeginingDevilDeal == 'Shake' || BeginingDevilDeal == 'shake') {
+				System.out.print("Void Demon: [shakes ");
+				System.out.print(CharName);
+				System.out.printLn("]");
+				System.out.printLn("Void Demon: Nice doing business with you.");
+				System.out.printLn("Void Demon: Enjoy your life as long as it lasts!");
+
+				StartSkillPnts = 30
+			} else {
+				System.out.printLn("Void Demon: Your funeral.");
+			}
+		}
+		
+	System.out.printLn("");
+	
+	}
+}
+
