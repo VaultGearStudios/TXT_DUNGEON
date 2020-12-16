@@ -56,7 +56,7 @@ A little text dungeon type game written in Java.
 	???
 		Added fancy images (for marketing of course)!
 
-#December 11, 2020
+# December 11, 2020
 	???
 		Added discussion pages to github @
 		https://github.com/DreamGearStudios/TXT_DUNGEON/discussions 
@@ -68,13 +68,13 @@ A little text dungeon type game written in Java.
 		Share coding help or art work to be put in the credits.
 		Art-work and animations will be included @ ArtWrk.md file.
 
-December 14, 2020
+# December 14, 2020
 	11:06
 		Added the file ArtWrk.md
 		Finished the Main Menu and random phrases but no secrets yet.
 		I am going to try to get the project done before going back and
 		editing it and updating it.
 		Added all artwork so far and separated files by page break.
-December 15, 2020
+# December 15, 2020
 	???
 		Updated Github pages
