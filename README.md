@@ -1,6 +1,6 @@
 # TXT_DUNGEON
 A little text dungeon type game written in Java.
-# Version 0.01:
+# Version 0.0.1:
 # December 2, 2020
 	13:24
 		the game is in the alpha stage the actual game should be almost unplayable...
@@ -49,9 +49,9 @@ A little text dungeon type game written in Java.
 		certain phrases and random phrases or something…
 
 # December 7, 2020
-    2:30
-    	Fixed .gitignore
-# Version 0.02
+	2:30
+    		Fixed .gitignore
+# Version 0.0.2
 # December 8, 2020
 	???
 		Added fancy images (for marketing of course)!
@@ -67,14 +67,17 @@ A little text dungeon type game written in Java.
 		https://github.com/DevilGlitch
 		Share coding help or art work to be put in the credits.
 		Art-work and animations will be included @ ArtWrk.md file.
-
 # December 14, 2020
 	11:06
 		Added the file ArtWrk.md
 		Finished the Main Menu and random phrases but no secrets yet.
 		I am going to try to get the project done before going back and
 		editing it and updating it.
-		Added all artwork so far and separated files by page break.
-# December 15, 2020
-	???
-		Updated Github pages
+		Added all artwork so far. 
+		I highly recommend joining Github( https://github.com ) and my 
+		faction ( https://github.com/DreamGearStudios )
+# Version 0.0.3
+# January 19, 2021
+	15:52
+		Base attributes added.
+		Artwork being added to github
